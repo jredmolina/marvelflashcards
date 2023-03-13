@@ -11,6 +11,7 @@
   transition: 0.15s;
   transform: perspective(1000px) rotateX(var(--rotate-X, 0));
   padding: 2em;
+  margin: 5px;
 }
 @keyframes logo-spin {
   0% {
@@ -48,6 +49,32 @@
 
 .card .back {
   transform: rotateX(180deg);
+}
+
+.input {
+  display: flex;
+  gap: 10px;
+  margin: 5px;
+  align-items: center;
+}
+
+.inputBox {
+  height: 30px;
+}
+
+.nextBackShuffle {
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+  margin: 5px;
+}
+
+.correct {
+  border: 3px solid green;
+}
+
+.wrong {
+  border: 3px solid rgb(255, 72, 0);
 }
 
 #easy {

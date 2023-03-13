@@ -1,4 +1,4 @@
-export const list = [
+export var list = [
   {
     question: "What is Peter Parker's Secret Identity?",
     answer: "Spider-Man",
